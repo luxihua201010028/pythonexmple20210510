@@ -1,2 +1,2 @@
-age = 23
-message = "happy" + str(age) + "rd birthday"
+# age = 23
+# message = "happy" + str(age) + "rd birthday"
