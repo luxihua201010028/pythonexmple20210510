@@ -26,8 +26,13 @@ print(cars)
 cars.reverse()
 print(cars)
 print(len(cars))
-listA = list(range(1,20,2))
+listA = list(range(1, 20, 2))
 print(listA)
-print(min(listA),max(listA),sum(listA))
-square=[value**2 for value in range(1,11)]
+print(min(listA), max(listA), sum(listA))
+square = [value**2 for value in range(1, 11)]
 print(square)
+print(square[-3:])
+players = ['charles', 'martins', 'michael', 'eli']
+for play in players[:3]:
+    print(play.title())
+    print(type(play))
